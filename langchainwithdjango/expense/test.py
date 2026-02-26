@@ -19,6 +19,7 @@
 
 
 # from ollama import chat
+# down load ollama latest version in local machine
 from langchain_ollama import ChatOllama     
 # Initialize an empty message history
 def get_result(message):
@@ -44,5 +45,5 @@ def get_result(message):
      ]
      print('\n')  # Add space after response
      return response_content
-#https://www.youtube.com/watch?v=yHAbRLhf1lM download karna hai langchain complete video
+
 
